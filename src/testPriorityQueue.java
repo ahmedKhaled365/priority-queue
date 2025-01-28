@@ -1,6 +1,6 @@
 public class testPriorityQueue {
     public static void main(String[] args) {
-        myPriorityQueue pq = new myPriorityQueue();
+        myPriorityQueue<Integer> pq = new myPriorityQueue();
         pq.add(10);
         pq.add(20);
         pq.add(5);
