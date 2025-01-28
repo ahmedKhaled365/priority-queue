@@ -11,15 +11,16 @@
     <li><strong>Efficient Removal:</strong> Removes the minimum element in <code>O(log n)</code> time.</li>
     <li><strong>Dynamic Resizing:</strong> Automatically resizes the underlying array when the queue reaches its capacity.</li>
     <li><strong>Heap Property:</strong> Maintains the min-heap property, ensuring the smallest element is always at the root.</li>
+    <li><strong>Generic Support:</strong> Works with any data type that implements <code>Comparable</code>.</li>
 </ul>
 
 <h2>Installation</h2>
 <ol>
     <li>Clone the repository:
-        <pre><code>git clone https://github.com/your-username/priority-queue.git</code></pre>
+        <pre><code>git clone https://github.com/ahmedKhaled365/priority-queue.git</code></pre>
     </li>
     <li>Navigate to the project directory:
-        <pre><code>cd priority-queue</code></pre>
+        <pre><code>cd your/directory</code></pre>
     </li>
     <li>Compile and run the project:
         <pre><code>javac IntPriorityQueue.java
@@ -40,4 +41,5 @@ java IntPriorityQueue</code></pre>
 <ul>
     <li>This implementation uses a <strong>min-heap</strong> structure, where the smallest element is always at the root.</li>
     <li>The priority queue dynamically resizes when its capacity is exceeded.</li>
+    <li>Since it is generic, the type <code>G</code> must implement the <code>Comparable</code> interface for comparisons.</li>
 </ul>
